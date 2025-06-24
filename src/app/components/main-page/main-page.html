@@ -1,1 +1,39 @@
-<h1>My Snick</h1>
+<div class="image-area">
+  <img src="assets/logo.png" width="100%" />
+</div>
+<div class="text-area">
+  <div class="ondebox">
+    <svg
+      class="onde"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28"
+      preserveAspectRatio="none"
+      shape-rendering="auto"
+    >
+      <defs>
+        <path
+          id="onda"
+          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352Z"
+        />
+      </defs>
+      <g class="parallaxonde">
+        <use xlink:href="#onda" x="48" y="0" fill="rgba(80, 62, 26, 1)" />
+        <use xlink:href="#onda" x="48" y="3" fill="rgba(218, 201, 196, 1)" />
+        <use xlink:href="#onda" x="48" y="5" fill="rgba(124, 72, 127, 1)" />
+        <use xlink:href="#onda" x="48" y="7" fill="#fbefdc" />
+      </g>
+    </svg>
+  </div>
+  <div>
+    <h1>sdasdasd</h1>
+    <p>asdadasda</p>
+  </div>
+</div>
+<div class="path">
+  <app-card
+    (click)="card1Click()"
+    class="card1"
+    [ngClass]="{ 'opaque': !card1Clicked()}"
+  ></app-card>
+</div>

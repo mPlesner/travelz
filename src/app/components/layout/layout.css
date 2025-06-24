@@ -1,0 +1,11 @@
+:host {
+  height: 100%;
+  display: block;
+}
+
+.main-container {
+  background-color: var(--cream);
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
