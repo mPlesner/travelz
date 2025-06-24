@@ -41,7 +41,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/travelz/",
+              "deployUrl": "/travelz/"
             },
             "development": {
               "optimization": false,
