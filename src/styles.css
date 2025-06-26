@@ -6,6 +6,10 @@
   box-sizing: border-box;
 
 	font-family: "Raleway", sans-serif;
+
+  &:focus {
+    outline: none !important;
+  }
 }
 
 html, body {
@@ -19,3 +23,6 @@ html, body {
   --light-purple: #dac9c4;
   --brown: #503e1a;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

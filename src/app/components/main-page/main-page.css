@@ -22,7 +22,6 @@
   }
 }
 
-
 .onde {
   position:relative;
   width: 100%;
@@ -69,7 +68,7 @@
 
 .path {
   height: 100vh;
-  background-image: url('/assets/sti.png');
+  background-image: url('/travelz/assets/sti.png');
   background-size: contain;      /* or 'cover' */
   background-repeat: no-repeat;
   background-position: center;
@@ -82,7 +81,6 @@ app-card {
 }
 
 .card1 {
-  background-color: var(--purple);
   transform: translate(48vw, 35vh);
 }
 
