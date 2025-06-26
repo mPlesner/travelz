@@ -9,7 +9,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--light-purple);
   gap: 2rem;
+  padding: 5rem;
+
+  .arrow-down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
 }
 
 
@@ -22,6 +32,9 @@
   max-height:150px;
 }
 
+.ondebox-bottom {
+  transform: scaleY(-1);
+}
 
 /* Animation */
 
@@ -56,10 +69,11 @@
 
 .path {
   height: 100vh;
-  background-image: url('/travelz/assets/sti.png');
+  background-image: url('/assets/sti.png');
   background-size: contain;      /* or 'cover' */
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: -100px;
 }
 
 /* cards */
